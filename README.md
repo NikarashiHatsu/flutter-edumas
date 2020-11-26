@@ -1,16 +1,42 @@
-# edumas
+# To-do List:
 
-A new Flutter project.
+## Masyarakat (Gak perlu login), step:
 
-## Getting Started
+### Akses aplikasi
+1. Isi form:
+	1. Nama
+	2. No KTP
+	3. Provinsi - Kabupaten - Kecamatan - Kelurahan
+	4. Alamat
+	5. Tempat Lahir
+	6. Tanggal Lahir
+	7. No HP
+	8. Email
+	9. Tanggal kejadian
+	10. Jam kejadian
+	11. Pilih polda - polres - polsek
+	12. Isi pengaduan
+	13. Lampiran
 
-This project is a starting point for a Flutter application.
+## Petugas dumas (Admin dumas, perlu login), step:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Akses aplikasi
+1. Login
+	1. Username
+	2. Password
+2. Masuk Dashboard
+	1. Menu:
+		1. Dashboard
+		2. Master Data (Nanti):
+			1. Instansi
+			2. Petugas
+			3. Polda - Polres - Polsek
+		3. Laporan:
+			1. Laporan Masyarakat
+			2. Laporan Instansi
+		4. Pesan (Nanti):
+			1. Tulis Pesan
+			2. Pesan Masuk
+			3. Pesan Terkirim / Kelurahan
+		5. Laporan Grafik (Nanti)
+		6. Konsultasi Masyarakat (Nanti)
