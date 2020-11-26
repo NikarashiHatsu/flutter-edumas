@@ -3,6 +3,7 @@ import 'package:edumas/lang/lang.dart';
 class LangID implements Lang {
   String lang = 'id';
   
+  String judulForm = 'Form Pengaduan Masyarakat';
   String formNama = 'Nama';
   String formNoKtp = 'No KTP';
   String formProvinsi = 'Provinsi';
@@ -21,6 +22,7 @@ class LangID implements Lang {
   String formPolsek = 'Polsek';
   String formIsiPengaduan = 'Isi Pengaduan';
   String formLampiran = 'Lampiran';
+  String formKirim = 'Kirim';
 
   String snackBarMenggantiBahasa = 'Mengganti bahasa...';
 }

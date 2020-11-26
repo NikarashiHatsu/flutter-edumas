@@ -3,6 +3,7 @@ import 'package:edumas/lang/lang.dart';
 class LangEN implements Lang {
   String lang = 'en';
 
+  String judulForm = 'Public Complaint Form';
   String formNama = 'Name';
   String formNoKtp = 'Resident Card Number';
   String formProvinsi = 'Province';
@@ -21,6 +22,7 @@ class LangEN implements Lang {
   String formPolsek = 'Sectoral Police';
   String formIsiPengaduan = 'Complaint Content';
   String formLampiran = 'Attachment';
+  String formKirim = 'Send';
   
   String snackBarMenggantiBahasa = 'Changing Language...';
 }

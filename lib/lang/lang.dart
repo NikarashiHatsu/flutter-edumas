@@ -1,6 +1,7 @@
 abstract class Lang {
   String lang;
-  
+
+  String judulForm;
   String formNama;
   String formNoKtp;
   String formProvinsi;
@@ -19,6 +20,7 @@ abstract class Lang {
   String formPolsek;
   String formIsiPengaduan;
   String formLampiran;
+  String formKirim;
 
   String snackBarMenggantiBahasa;
 }
