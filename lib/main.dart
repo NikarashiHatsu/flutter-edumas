@@ -3,6 +3,7 @@ import 'package:edumas/lang/en.dart';
 import 'package:edumas/lang/id.dart';
 import 'package:edumas/lang/lang.dart';
 import 'package:edumas/pages/AduanMasyarakat.dart';
+import 'package:edumas/pages/auth/Login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,7 +39,11 @@ class _EdumasState extends State<Edumas> {
         widgets: [
           IconButton(
             icon: Icon(Icons.login, color: Colors.black), 
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(
+                builder: (context) => Login(lang: lang),
+              ));
+            },
           ),
           IconButton(
             icon: Icon(Icons.language, color: Colors.black),

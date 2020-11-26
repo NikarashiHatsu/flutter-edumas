@@ -23,6 +23,12 @@ class LangEN implements Lang {
   String formIsiPengaduan = 'Complaint Content';
   String formLampiran = 'Attachment';
   String formKirim = 'Send';
+
+  String loginJudul = 'Login Page';
+  String loginSubJudul = 'Login to get into the system';
+  String loginUsername = 'Username';
+  String loginPassword = 'Password';
+  String loginButton = 'Login';
   
   String snackBarMenggantiBahasa = 'Changing Language...';
 }

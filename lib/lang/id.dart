@@ -24,5 +24,11 @@ class LangID implements Lang {
   String formLampiran = 'Lampiran';
   String formKirim = 'Kirim';
 
+  String loginJudul = 'Halaman Login';
+  String loginSubJudul = 'Login untuk masuk ke dalam sistem';
+  String loginUsername = 'Nama Pengguna';
+  String loginPassword = 'Kata Sandi';
+  String loginButton = 'Masuk';
+
   String snackBarMenggantiBahasa = 'Mengganti bahasa...';
 }

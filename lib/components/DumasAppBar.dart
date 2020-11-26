@@ -16,6 +16,9 @@ class DumasAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      iconTheme: IconThemeData(
+        color: Colors.black,
+      ),
       title: title,
       backgroundColor: backgroundColor,
       actions: widgets,

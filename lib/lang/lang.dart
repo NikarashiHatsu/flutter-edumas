@@ -22,5 +22,11 @@ abstract class Lang {
   String formLampiran;
   String formKirim;
 
+  String loginJudul;
+  String loginSubJudul;
+  String loginUsername;
+  String loginPassword;
+  String loginButton;
+
   String snackBarMenggantiBahasa;
 }
